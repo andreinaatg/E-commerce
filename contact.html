@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/media-query.css">
+  <link rel="stylesheet" href="css/glider.min.css">
+    <title>Miwa</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a><img src="images/icons8-close-100.png" alt="close" class="hamburger"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <ul class="navbar">
+                <section class="left-section">
+                    <a href="index.html">
+                        <img src="images/Logo.png" alt="Miwa brand logo" class="logo">
+                    </a>
+                </section>
+                <section class="middle-section">
+                    <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li  class="hideOnMobile"><a href="shop.html">Shop</a></li>
+                <li  class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                </section>
+                <section class="right-section">
+                    <li class="hideOnMobile"><a href="#"><img src="images/user.png" class="icon" alt="user-icon"></a></li>
+                    <li class="hideOnMobile"><a href="#"><img src="images/bag.png" class="icon" alt="bag-icon"></a></li>
+                    <li class="menu" onclick="showSidebar()"><a href="#"><img src="images/icons8-menu-100.png" alt="hamburger-menu" class="hamburger"></a></li>
+                </section>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <form>        
+              <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name">
+              </div>
+        
+              <div class="input-group">
+                <label>Phone No.</label>
+                <input type="tel" placeholder="123 456 7890">
+              </div>
+        
+              <div class="input-group">
+                <label>Email Id</label>
+                <input type="email" placeholder="Enter Email">
+              </div>   
+        
+              <div class="input-group">
+                <label>Your Message</label>
+                <textarea rows="5" placeholder="Enter your message"></textarea>
+              </div>
+        
+            <button>Submit</button>        
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><img src="images/icons8-instagram-100.png"></a>
+                        <a href="#"><img src="images/icons8-facebook-100.png"></a>
+                        <a href="#"><img src="images/icons8-linkedin-100.png"></a>
+                        <a href="#"><img src="images/icons8-x-100.png"></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    <script src="script.js"></script>
+</body>
+</html>

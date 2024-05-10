@@ -1,0 +1,255 @@
+/* heading carousel */
+.list {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+
+  .item {
+    position: relative;
+    width:100%;
+    padding: 0 20px 0 0;
+    scroll-snap-align: center;
+
+  }
+
+.item img {
+    object-fit: cover;
+    width: 100vw;
+    height: 100%;
+}
+
+  .list-wrapper {
+    position: relative;
+  }
+
+
+
+  #button--previous {
+    left: 1.5rem;
+    object-fit: cover;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    }
+
+  #button--next {
+    right: 1.5rem;
+    object-fit: cover;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    }
+
+    .banner-info{
+        position: absolute;
+        top: 100px;
+        left: 200px;
+    }
+    .heading {
+        width: 75vmin;
+        height: 3vh;
+        margin-bottom: 55px;
+        color: black;
+    }
+    .subtitle {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+.shop-btn {
+    font-family: "Signika", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #EEEDEB;
+    border-radius: 15px;
+    padding: 10px 35px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.shop-btn:hover {
+    background-color: #65A8CF;
+    color: white;
+}
+  .hideOnDesktop {
+    display: none;
+  }
+
+  .arrow{
+    height: 50%;
+    width: 50%;
+  }
+
+/* best seller product slider */
+.product-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto  ;
+    width: 95%;
+}
+
+.slider-title {
+    font-size: 28px;
+    color: #65A8CF;
+    text-align: center;
+    margin: 0px;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 10px;
+    margin: 0 20px;
+}
+.product-img-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.p-img a, 
+.p-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.p-img a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+.p-box-text {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.product-brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-brand img {
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+}
+
+.product-brand h3 {
+    color: black;
+    font-size: 1.2rem;
+    margin: 5px 0px;
+}
+
+.product-description {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all ease 0.3s;    
+}
+
+.product-description:hover{
+    color: #65A8CF;
+    opacity: 0.7;
+    transition: all ease 0.3s;
+}
+
+.price{
+    margin-top: 8px;
+}
+
+.p-price{
+    font-size: 1.3rem;
+    color: #65A8CF;
+    font-weight: 700;
+}
+
+.slider-btns{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.slider-btns button {
+    position: static !important;
+    transform: translate(0,0);
+    background-color: white;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid #cfcfcf;
+}
+
+
+/* why section */
+.why-section {
+    background-color: #dceff3;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+
+.why-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    width: 15vw;
+}
+
+.box p {
+    margin-top: 20px;
+    width: 50vmin;
+    font-weight: 300;
+    font-size: 1.2rem;
+    width: 35vmin;
+    line-height: 25px;
+    text-align: center;
+}
+
