@@ -34,14 +34,14 @@ window.onload = function() {
           let item = data[i];
   
           let product = `
-            <div class="productDiv"${i+1}>
-            <img src="${item.image}" alt="productimg" class="image">
+            <div class="product"${i+1}>
+            <img src="${item.image}" alt="productimg" class="product-image">
             <div class="brand-icon">
             <h3>${item.Brand}</h3>
             <img src="${item.icon}" alt="bag-icon" class="icon">
             </div>
-            <p>${item.description}</p>
-            <p>${item.price}</p>
+            <p class="description">${item.description}</p>
+            <p class="product-price">${item.price}</p>
             <button>Add to Cart</button>
             </div>
           `;
@@ -122,7 +122,7 @@ window.onload = function() {
       //condition if the input field is empty
       if (name.length === 0) {
           //will display a name error 'name is required'
-          nameError.innerHTML = 'Name is required';
+          nameError.innerHTML = 'Write full name';
           return false
       }
       //conditon checks if first character is alpahbet then one space after that it could be any character a to z
@@ -134,3 +134,4 @@ window.onload = function() {
       nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
       return true;
   }
+ 

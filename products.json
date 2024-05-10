@@ -2,7 +2,7 @@
     {
         "id": "1",
         "image":"product-images/aestura-cream copy.webp",
-        "price": 39.60,
+        "price": "$39.60",
         "Brand": "Aestura",
         "description": "AESTURA Atobarrier 365 Cream 80mL ",
         "icon": "images/bag-icon.png"
@@ -10,7 +10,7 @@
     {
         "id": "2",
         "image":"product-images/anua-cleanser.jpeg",
-        "price": 18.32,
+        "price": "$18.32",
         "Brand": "Anua",
         "description": "Anua Heartleaf Quercetinol Pore Deep Cleansing Foam 150mL",
         "icon": "images/bag-icon.png"    
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "image":"product-images/anua-oil.webp",
-        "price": 20.00,
+        "price":"$20.00",
         "Brand": "Anua",
         "description": "Anua Heartleaf Pore Control Cleansing Oil",
         "icon": "images/bag-icon.png"
@@ -26,7 +26,7 @@
     {
         "id": "4",
         "image":"product-images/anuna-peach-serum copy.jpeg",
-        "price": 28.99,
+        "price": "$28.99",
         "Brand": "Anua",
         "description": "Anua Peach 70 Niacin Serum 30mL",
         "icon": "images/bag-icon.png"
@@ -34,7 +34,7 @@
     {
         "id": "5",
         "image":"product-images/centella-serum.jpeg",
-        "price": 11.20 ,
+        "price": "$11.20" ,
         "Brand": "centella",
         "description": "SKIN1004 Madagascar Centella Ampoule 55mL",
         "icon": "images/bag-icon.png"
@@ -42,7 +42,7 @@
     {
         "id": "6",
         "image":"product-images/ETUDEHOUSESoonJung2xBarrierIntensiveCream_60ml_2 copy.webp",
-        "price": 22.00,
+        "price": "$22.00",
         "Brand": "ETUDE HOUSE",
         "description": "SoonJung 2x Barrier Intesive Cream",
         "icon": "images/bag-icon.png"
@@ -50,7 +50,7 @@
     {
         "id": "7",
         "image":"product-images/eye-cream copy.webp",
-        "price": 18.99,
+        "price": "$18.99",
         "Brand": "Beauty of Joseon",
         "description": "Revive Eye Serum:Ginseng + Retinal",
         "icon": "images/bag-icon.png"
@@ -59,7 +59,7 @@
     {
         "id": "8",
         "image":"product-images/anua-toner.jpeg",
-        "price": 29.90,
+        "price": "$29.90",
         "Brand": "Anua",
         "description": "Anua Heartleaf 77% Soothing Toner 350ml",
         "icon": "images/bag-icon.png"
@@ -68,7 +68,7 @@
     {
         "id": "9",
         "image":"product-images/mediheal-collagen-pink.jpeg",
-        "price": 31.86,
+        "price": "$31.86",
         "Brand": "MEDIHEAL",
         "description": "MEDIHEAL Madecassoside Blemish Pad 100 Pads Double Pack",
         "icon": "images/bag-icon.png"
@@ -76,7 +76,7 @@
     {
         "id": "10",
         "image":"product-images/mediheal-pads-blue.jpeg",
-        "price": 31.86,
+        "price": "$31.86",
         "Brand": "MEDIHEAL",
         "description": "MEDIHEAL Collagen Ampoule Pad 100 Pads Double Pack Set",
         "icon": "images/bag-icon.png"
@@ -84,7 +84,7 @@
     {
         "id": "11",
         "image":"product-images/rice-toner.webp",
-        "price": 32.00,
+        "price": "$32.00",
         "Brand": "I'm from",
         "description": "Rice Toner",
         "icon": "images/bag-icon.png"
@@ -92,7 +92,7 @@
     {
         "id": "12",
         "image":"product-images/vitaC-serum copy.jpeg",
-        "price": 34.48,
+        "price": "$34.48",
         "Brand": "goodal", 
         "description": "Green Tangerine Vita C Dark Spot Care Serum Set" ,
         "icon": "images/bag-icon.png"
