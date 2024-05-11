@@ -42,10 +42,9 @@ window.onload = function() {
             </div>
             <p class="description">${item.description}</p>
             <p class="product-price">${item.price}</p>
-            <button>Add to Cart</button>
+            <button id="add-cart" onclick="addToCart()">Add to Cart</button>
             </div>
           `;
-
           productsHtml += product;
         }
 
@@ -110,28 +109,4 @@ window.onload = function() {
       ]
   });
 
-  // contact js form validation
-  const nameError = document.getElementById('name-error');
-  const emailError = document.getElementById('email-error');
-  const messageError = document.getElementById('message-error');
-  const submitError = document.getElementById('subit-error');
-
-  function validateName() {
-      //this variable will store the content written in the input box name aka the value
-      const name = document.getElementById('contact-name').value;
-      //condition if the input field is empty
-      if (name.length === 0) {
-          //will display a name error 'name is required'
-          nameError.innerHTML = 'Write full name';
-          return false
-      }
-      //conditon checks if first character is alpahbet then one space after that it could be any character a to z
-      //!name means value is not matching expression 
-      if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
-          nameError.innerHTML = 'Write full name';
-          return false;
-      }
-      nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
-      return true;
-  }
- 
+  

@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image":"product-images/aestura-cream copy.webp",
+        "image":"product-images/aestura-cream.webp",
         "price": "$39.60",
         "Brand": "Aestura",
         "description": "AESTURA Atobarrier 365 Cream 80mL ",
@@ -25,7 +25,7 @@
     },
     {
         "id": "4",
-        "image":"product-images/anuna-peach-serum copy.jpeg",
+        "image":"product-images/anuna-peach-serum.jpeg",
         "price": "$28.99",
         "Brand": "Anua",
         "description": "Anua Peach 70 Niacin Serum 30mL",
@@ -41,7 +41,7 @@
     },
     {
         "id": "6",
-        "image":"product-images/ETUDEHOUSESoonJung2xBarrierIntensiveCream_60ml_2 copy.webp",
+        "image":"product-images/soonjungcream.webp",
         "price": "$22.00",
         "Brand": "ETUDE HOUSE",
         "description": "SoonJung 2x Barrier Intesive Cream",
@@ -49,7 +49,7 @@
     },
     {
         "id": "7",
-        "image":"product-images/eye-cream copy.webp",
+        "image":"product-images/eye-cream.webp",
         "price": "$18.99",
         "Brand": "Beauty of Joseon",
         "description": "Revive Eye Serum:Ginseng + Retinal",
@@ -91,7 +91,7 @@
     },
     {
         "id": "12",
-        "image":"product-images/vitaC-serum copy.jpeg",
+        "image":"product-images/vitaC-serum.jpeg",
         "price": "$34.48",
         "Brand": "goodal", 
         "description": "Green Tangerine Vita C Dark Spot Care Serum Set" ,

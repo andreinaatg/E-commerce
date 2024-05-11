@@ -22,6 +22,7 @@ h1{
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.5s ease-in-out;
+    background-color: aliceblue;
 
 }
 
@@ -71,23 +72,4 @@ h1{
 .product button:hover{
     background-color: #89b8d3 ;
 }
-@media (max-width: 1200px) {
-    .product-container {
-        width: 80%;
-        height: auto;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        margin: 0 auto;
-    }
-}
 
-@media (max-width: 425px) {
-    .product-container {
-        width: 80%;
-        height: auto;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: 0 auto;
-    }
-}

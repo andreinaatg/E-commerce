@@ -8,7 +8,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 
 }
 
@@ -24,10 +24,10 @@ ul{
 
 a {
   font-family: "Signika", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   font-size: 24px;
+  text-decoration: none;
 }
 
 p {
@@ -43,6 +43,11 @@ h1,h2,h3,h4 {
     font-style: normal;
 }
 
+button {
+  font-family: "Signika", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -180,4 +185,25 @@ nav a:first-child{
 .social-links img {
   width: 50px;
   height: 50px;
+}
+
+.button-container {
+display: flex;
+justify-content: center;
+}
+
+#continue-btn {
+  background-color: #65A8CF;
+  color: white;
+  border: none;
+  padding: 20px 40px; 
+  border-radius: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+#continue-btn:hover {
+  background-color: #65a8cf9b;
+  transform: scale(1.2);
 }

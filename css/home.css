@@ -100,11 +100,9 @@
     width: 95%;
 }
 
-.slider-title {
-    font-size: 28px;
+#slider-title {
+    font-size: 1.9rem;
     color: #65A8CF;
-    text-align: center;
-    margin: 0px;
 }
 
 .product-box {
@@ -166,23 +164,24 @@
     color: black;
     font-weight: 400;
     text-decoration: none;
-    transition: all ease 0.3s;    
+    transition: all  0.2s ease;    
 }
 
 .product-description:hover{
     color: #65A8CF;
     opacity: 0.7;
-    transition: all ease 0.3s;
 }
 
 .price{
     margin-top: 8px;
+
 }
 
 .p-price{
     font-size: 1.3rem;
     color: #65A8CF;
     font-weight: 700;
+    
 }
 
 .slider-btns{

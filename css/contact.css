@@ -1,7 +1,5 @@
 *{
-    box-sizing: border-box;
     font-family: "Signika", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
 }
@@ -48,21 +46,35 @@
 }
 
 form button{
-    background: #65A8CF;
+    background-color: #65A8CF;
     color: #fff;
+    border: none;
     border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.7);
     padding: 10px 40px;
     outline: 0;
     cursor: pointer;
     display: block;
     margin: 30px auto 10px;
+    transition: all .3s;
 }
+
+form button:hover{
+    background-color: #65a8cf8c;
+}
+
+
 
 .input-group span{
     position: absolute;
     bottom: 12px;
     right: 17px;
     font-size: 14px;
+}
+
+
+.input-group span i {
+    color: seagreen;
+}
+span {
     color: red;
 }
