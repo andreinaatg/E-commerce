@@ -22,6 +22,7 @@ function handleClick(direction) {
   direction === "previous" ? list.scrollBy({ left: -itemWidth, behavior: "smooth" }) : list.scrollBy({ left: itemWidth, behavior: "smooth" });
 }
 
+
 // Function to fetch JSON data
 
 window.onload = function() {
@@ -42,7 +43,7 @@ window.onload = function() {
             </div>
             <p class="description">${item.description}</p>
             <p class="product-price">${item.price}</p>
-            <button id="add-cart" onclick="addToCart()">Add to Cart</button>
+            <button id="add-cart">Add to Cart</button>
             </div>
           `;
           productsHtml += product;
@@ -68,22 +69,20 @@ window.onload = function() {
       slidesToScroll: 1,
       slidesToShow: 4,
       draggable: true,
-      dots: '.dots',
       arrows: {
           prev: '.glider-prev',
           next: '.glider-next'
       },
       responsive: [
           {
-              // screens greater than >= 775px
+              // screens less than >= 1200px
               breakpoint: 1200,
               settings: {
-                  // Set to `auto` and provide item width to adjust to viewport
                   slidesToShow: '4',
                   slidesToScroll: '2',
               }
           }, {
-              // screens greater than >= 1024px
+              // screens less than >= 900px
               breakpoint: 900,
               settings: {
                   slidesToShow: 3,
@@ -91,7 +90,7 @@ window.onload = function() {
               }
           },
           {
-              // screens greater than >= 1024px
+              // screens less than >= 640px
               breakpoint: 640,
               settings: {
                   slidesToShow: 2,
@@ -99,7 +98,7 @@ window.onload = function() {
               }
           },
           {
-              // screens greater than >= 1024px
+              // screens less than >= 304px
               breakpoint: 304,
               settings: {
                   slidesToShow: 1,
