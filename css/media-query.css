@@ -73,11 +73,6 @@
 
 
 @media (max-width: 768px) {
-  nav li {
-      display: block;
-      margin: 10px 0;
-      height: 50px;
-  }
   nav a {
       font-size: 18px;
   }
