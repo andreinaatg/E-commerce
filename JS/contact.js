@@ -51,27 +51,30 @@ function validatePhone() {
 
 
 
-function validateEmail(){
-    //getting the value of the input boz
+function validateEmail() {
+    // Getting the value of the input box
     const email = document.getElementById('email').value;
-    //check the length if it is 0 (empty)
-    if(email.length === 0 ){
-        emailError.innerHTML = 'Email required' //display error
+    // Check if the input is empty
+    if (email.length === 0) {
+        emailError.innerHTML = 'Email required'; // Display error
         return false;
-     }
-     //it should be any alphabet, it main contain . - _ and it can container any number there should be @
-    if(email.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){//
-        emailError.innerHTML = 'Email Invalid';
-        return false
     }
-    //if theres not error display icon and return true
+    // It should be any alphabet, it mainly contain. - _ and it can contain any number there should be @
+    if (!email.match(/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/)) {
+        emailError.innerHTML = 'Email Invalid';
+        return false;
+    }
+    
+    // If there's no error, display icon and return true
     emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+    return true;
 }
+
 
 
 function validateMessage() {
     const message = document.getElementById('message').value;
-    const required = 60;
+    const required = 30;
     var left = required - message.length;
 
     if (left > 0) {

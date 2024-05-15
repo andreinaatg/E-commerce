@@ -29,7 +29,7 @@ window.onload = function() {
     fetch("products.json")
       .then((response) => response.json())
       .then((data) => {
-        let productsHtml = "";
+        let productstHTML = "";
         for (let i = 0; i < data.length; i++) {
 
           let item = data[i];
@@ -46,12 +46,12 @@ window.onload = function() {
             <button id="add-cart">Add to Cart</button>
             </div>
           `;
-          productsHtml += product;
+          productstHTML += product;
         }
 
-        let productsContainer = document.getElementsByClassName("product-container")[0]
+        let productsContainer = document.getElementsByClassName("product-container")[0];
 
-        productsContainer.innerHTML = productsHtml;
+        productsContainer.innerHTML = productstHTML;
       })
       
       .catch((error) => {
